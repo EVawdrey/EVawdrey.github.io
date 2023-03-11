@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Elisabeth Vawdrey</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="styles.css" />
+        
+    </head>
+    <body>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Tech Moms</a>
+        <a href="#">Work Experience</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      
+
+          <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+          <div id="main">
+            ...
+          </div>
+        
+
+   <!nav-- Header -->
+
+
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+    <div class="w3-center">
+      <img src="images/FAM-95.jpg" class="betsyface">
+     <h1 class="w3-xxxlarge w3-animate-bottom">Elisabeth Vawdrey</h1>
+      <div class="w3-padding-32">
+        <h5> Oh, The Places You Will Go! You have brains in your head. You have feet in your shoes. You can steer yourself any direction....(Dr. Seuss)</h5>
+      </div>
+    </div>
+  </header>
+  
+  <div class="w3-row-padding w3-center w3-margin-top">
+    <div class="w3-third">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Tech Moms</h3><br>
+      <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+      <p>HTML, CSS, JavaScript</p>
+      <p>Multiple Tech Career Paths</p>
+      <p>Support for Women</p>
+      <p>Continuous Learning</p>
+      </div>
+    </div>    
+    
+    <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h2>Work Experience</h2><br>
+        <i class="fa fa-phone w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+        <p>Customer First Focus</p>
+        <p>Integrity</p>
+        <p>Solid Purpose</p>
+        <p>Continuous Learning</p>
+        </div>
+      </div>
+    
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>About Me</h3><br>
+        <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+        <p>Hard Working</p>
+        <p>High Empathy</p>
+        <p>Knowledgeable and Kind</p>
+        <p>Funny but Dedicated</p>
+        </div>
+      </div>
+      </div>
+
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="tech.html">Tech Moms</a></li>
+                    <li><a href="work.html">Work Experience</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+                    <div>
+
+  
+                    ​
+    <section>
+        <Contact class="center-text">Elisabeth Vawdrey/
+                                      /801-662-8843
+                                /Email: Vawdrey1@gmail.com
+                                        /Linked In:
+        </Contact>
+      </section>
+<footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <small class="center-text">Created just for fun in Sandy, Utah</small>
+       <div class="bottom">
+        
+       </div>
+      
+      
+      
+      </footer>
+    
+        
+            </nav>
+
+            <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+              // Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+              </script>
+          </body>      
+</html>
