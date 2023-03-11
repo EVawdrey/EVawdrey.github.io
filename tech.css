@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(92, 165, 165);
+    margin: 0;
+    background-image: url("https://pixabay.com/photos/insect-dragonfly-entomology-species-6900940/");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    padding-top: 50px;
